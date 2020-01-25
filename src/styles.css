@@ -1,0 +1,17 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  background: url("https://images.unsplash.com/photo-1524721696987-b9527df9e512?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1190&q=80");
+}
+
+.components {
+  display: flex;
+  flex-direction: column;
+}
+
+.Health {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 8%;
+  padding-right: 25%;
+}

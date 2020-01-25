@@ -1,0 +1,13 @@
+.Hero{
+  width: 25%;
+  z-index: 1;
+  height: 5%;
+  padding-top: 40%;
+  animation: idle1 5s infinite;
+  @keyframes idle1 {
+    0% {transform: rotateX(0deg)}
+    50% {transform: rotateX(15deg)}
+    75% {transform: rotateX(-10deg)}
+  }
+}
+

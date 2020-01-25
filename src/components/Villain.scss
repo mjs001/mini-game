@@ -1,0 +1,11 @@
+.Villain{
+  width:40%;
+  padding-left: 35%;
+
+  animation: idle1 5s infinite;
+  @keyframes idle1 {
+    0% {transform: skewY(0deg)}
+    50% {transform: skewY(5deg)}
+    75% {transform: skewY(-5deg)}
+  }
+}
